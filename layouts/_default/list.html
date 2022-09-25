@@ -39,8 +39,11 @@
 {{- $pages := union .RegularPages .Sections }}
 
 {{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- if .Param "ListSubpages" }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections}}
+{{- else }}
+{{- $pages = where (where site.RegularPages "Type" "in" site.Params.mainSections) "Params.namespace" "==" nil }}
+{{- end }}
 {{- end }}
 
 {{- $paginator := .Paginate $pages }}

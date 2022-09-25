@@ -31,3 +31,15 @@
 
 - id: code_copied
   translation: "Kopiert!"
+
+- id: no_linked_refs
+  translation: "Keine verlinkten Referenzen zu dieser Seite"
+
+- id: related
+  translation: "Siehe auch"
+
+- id: linked_ref
+  translation: "verlinkte Referenz"
+
+- id: linked_refs
+  translation: "verlinkte Referenzen"

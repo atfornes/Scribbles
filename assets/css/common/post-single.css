@@ -28,7 +28,8 @@
     box-shadow: 0 1px 0 var(--secondary);
 }
 
-.breadcrumbs a {
+.breadcrumbs a,
+.breadcrumbs p {
     font-size: 16px;
 }
 
@@ -46,11 +47,14 @@
 .post-content h1 {
     margin: 40px auto 32px;
     font-size: 40px;
+    border-bottom: 1px solid var(--secondary);
 }
 
 .post-content h2 {
     margin: 32px auto 24px;
     font-size: 32px;
+    border-bottom: 1px solid var(--secondary);
+    font-style: italic;
 }
 
 .post-content h3 {
@@ -153,11 +157,11 @@
     border-radius: var(--radius);
 }
 
-.post-content .highlight:not(table) {
+.post-content .highlight:not(table),
+.post-content pre {
     margin: 10px auto;
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
-    direction: ltr;
 }
 
 .post-content li > .highlight {
@@ -189,6 +193,10 @@
     margin-bottom: 0;
 }
 
+.post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
+    display: none;
+}
+
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
@@ -203,8 +211,8 @@
     margin: auto 0;
     padding: 10px;
     color: rgb(213, 213, 214);
-    background: var(--hljs-bg) !important;
-    border-radius: var(--radius);
+    background: 0 0;
+    border-radius: 0;
     overflow-x: auto;
     word-break: break-all;
 }
@@ -219,7 +227,8 @@
     margin: 30px 0;
     height: 2px;
     background: var(--tertiary);
-    border: 0;
+    border-top: 0;
+    border-bottom: 0;
 }
 
 .post-content iframe {
@@ -340,6 +349,17 @@
     margin-inline-end: 12px;
 }
 
+.share-buttons a svg {
+    height: 30px;
+    width: 30px;
+    fill: currentColor;
+    transition: transform 0.1s;
+}
+
+.share-buttons svg:active {
+    transform: scale(0.96);
+}
+
 h1:hover .anchor,
 h2:hover .anchor,
 h3:hover .anchor,
@@ -351,6 +371,28 @@ h6:hover .anchor {
     margin-inline-start: 8px;
     font-weight: 500;
     user-select: none;
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb {
+    border: 2px solid var(--hljs-bg);
+    background: rgb(113, 113, 117);
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb:hover {
+    background: rgb(163, 163, 165);
+}
+
+.gist table::-webkit-scrollbar-thumb {
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(173, 173, 173);
+}
+
+.gist table::-webkit-scrollbar-thumb:hover {
+    background: rgb(112, 112, 112);
+}
+
+.post-content table::-webkit-scrollbar-thumb {
+    border-width: 2px;
 }
 
 .paginav {
@@ -391,11 +433,31 @@ h6:hover .anchor {
     text-align: left;
 }
 
-h1>a>svg {
-    display: inline;
+.backlinks, .related {
+    margin-top: 50px;
 }
 
-img.in-text {
-    display: inline;
-    margin: auto;
+.backlinks a,
+.related a {
+    color: var(--secondary);
+}
+
+.backlinks h3,
+.related h3,
+.backlinks h4,
+.related h4 {
+    color: var(--secondary);
+    padding-bottom: 10px;
+}
+
+.backlinks ol,
+.backlinks ul,
+.related ol,
+.related ul {
+    padding-inline-start: 20px;
+}
+
+.backlinks li,
+.related li {
+    margin-top: 5px;
 }
