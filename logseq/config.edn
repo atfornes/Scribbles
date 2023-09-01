@@ -413,4 +413,5 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
- :default-home {:page "Scribbles & Scrabbles"}}
+ :default-home {:page "Scribbles & Scrabbles"}
+ :publishing/all-pages-public? true}
