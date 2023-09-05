@@ -4,5 +4,5 @@
 -
 - A first attempt only let us use the value of the cursor at the time or (re)evaluation. Thus, we cannot change the parameters just by moving the cursor. This is however interesting to only produce changes when desired, and not because the programmer moves the cursor to change some code.
 - {{embed [[StrudelMouse.js]]}}
-- https://strudel.tidalcycles.org/#KGZ1bmN0aW9uKCl7CmRvY3VtZW50Lm9ubW91c2Vtb3ZlID0gZnVuY3Rpb24oZSl7CiAgd2luZG93Lm1vdXNlLnggPSBlLng7CiAgd2luZG93Lm1vdXNlLnkgPSBlLnk7Cn0KfSkoKQoKbGV0IG1vdXNlID0gd2luZG93Lm1vdXNlCgpzb3VuZCgiYmQgc2QiKS5scGYobW91c2UueCAqIDUpCg%3D%3D
+- [Strudel using cursor position](https://strudel.tidalcycles.org/#Ly8gQHRpdGxlIFN0cnVkZWwgdXNpbmcgY3Vyc29yIHBvc2l0aW9uCi8vIEBieSBUQUNIQX4KLy8gQGxpY2Vuc2UgQ0MwIGh0dHBzOi8vY3JlYXRpdmVjb21tb25zLm9yZy9wdWJsaWNkb21haW4vemVyby8xLjAvCgooZnVuY3Rpb24oKXsKICBpZiAoIXdpbmRvdy5tb3VzZSkKICAgIHdpbmRvdy5tb3VzZSA9IHsKICAgICAgeDogMCwKICAgICAgeTogMAogICAgfSAgCiAgZG9jdW1lbnQub25tb3VzZW1vdmUgPSBmdW5jdGlvbihlKXsKICAgIHdpbmRvdy5tb3VzZSA9IHsKICAgICAgeDogZS54LAogICAgICB5OiBlLnkKICAgIH0KICB9Cn0pKCkKCmxldCBtb3VzZSA9IHdpbmRvdy5tb3VzZQoKc291bmQoImJkIHNkIikubHBmKG1vdXNlLnggKiA1KQo%3D)
 -
