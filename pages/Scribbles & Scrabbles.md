@@ -1,0 +1,2 @@
+## Posts
+	- {{query [[Post]]}}

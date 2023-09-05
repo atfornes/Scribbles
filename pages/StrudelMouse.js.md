@@ -1,7 +1,7 @@
 - ```javascript
   // @title Strudel using cursor position
   // @by TACHA~
-  // @license CC0 https://creativecommons.org/publicdomain/zero/1.0/
+  // @license CC0 [Creative Commons — CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
   
   (function(){
     if (!window.mouse)
