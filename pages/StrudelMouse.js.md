@@ -1,8 +1,23 @@
-- (function(){
-  document.onmousemove = function(e){
-  window.mouse.x = e.x;
-  window.mouse.y = e.y;
-  }
+- ```javascript
+  // @title Strudel using cursor position
+  // @by TACHA~
+  // @license CC0 https://creativecommons.org/publicdomain/zero/1.0/
+  
+  (function(){
+    if (!window.mouse)
+      window.mouse = {
+        x: 0,
+        y: 0
+      }  
+    document.onmousemove = function(e){
+      window.mouse = {
+        x: e.x,
+        y: e.y
+      }
+    }
   })()
-- let mouse = window.mouse
-- sound("bd sd").lpf(mouse.x * 5)
+  
+  let mouse = window.mouse
+  
+  sound("bd sd").lpf(mouse.x * 5)
+  ```
