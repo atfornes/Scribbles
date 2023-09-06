@@ -1,9 +1,9 @@
 type:: [[Post]]
-date:: [[Sep 5th, 2023]]
+date:: [[2023-09-05]]
 
 -
 - ((64f77bdc-4b4c-48ae-bb7b-a941a2f3e107))
-- You can use standard Javascript in your [[Strudel]] code! which enables exciting things such as [using the mouse position to control parameters]([[How to use cursor position in Strudel]]). But you have to be careful, and use single quote strings (See [here](https://strudel.tidalcycles.org/learn/code#strings) why)
+- You can use standard Javascript in [[Strudel]]! which enables exciting things such as [using the mouse position to control parameters]([[How to use cursor position in Strudel]]). But you have to be careful, and use single quote strings (See [here](https://strudel.tidalcycles.org/learn/code#strings) why).
   id:: 64f77d17-a23a-4040-9b11-676fd52e73dd
 -
 - A first attempt only let us use the value of the cursor at the time of (re)evaluation. Thus, we cannot change the parameters just by moving the cursor as in [[Hydra]]. This is however interesting to produce changes  only when desired, and not when the performer moves the cursor to change some code.

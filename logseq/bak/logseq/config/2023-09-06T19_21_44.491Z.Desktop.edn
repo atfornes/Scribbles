@@ -416,6 +416,4 @@
  :default-home {:page "Scribbles & Scrabbles"}
  :publishing/all-pages-public? true
  :feature/enable-timetracking? false
- :journal/page-title-format "yyyy-MM-dd"
- :feature/enable-flashcards? false
- :feature/enable-whiteboards? false}
+ :journal/page-title-format "yyyy-MM-dd"}
