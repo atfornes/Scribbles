@@ -1,2 +1,4 @@
-## Posts
+public:: true
+
+- ## Posts
 	- {{query [[Post]]}}

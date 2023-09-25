@@ -1,34 +1,34 @@
-baseURL: https://githubuser.github.io
+baseURL: https://atfornes.github.io/Scribbles
 languageCode: en-us
-title: Linus Torvalds
+title: Scribbles & Scrabbles
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: Sup bruh 😎
-    Content: This is something shows in your homepage.
+    Title: Scribbles & Scrabbles
+    Content: Personal live coding journal to share scribbles and scrabbles.
 
   socialIcons: # optional
     - name: "github"
-      url: "https://github.com/XXX"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/channel/XXX"
-    - name: "twitter"
-      url: "https://twitter.com/XXX"
+      url: "https://github.com/atfornes"
+    - name: "youtube"
+     url: "https://www.youtube.com/@tachachat"
+    # - name: "twitter"
+    #   url: "https://twitter.com/XXX"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
   ShowReadingTime: true
-  author: "Linus Torvalds"
-  contact: "LinusT@example.com"
+  author: "TACHA~"
+  contact: "tacha@atenor.io"
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
 
  #Google Analytics 4 optional
   env: #production
-  GoogleAnalytics: "G-00000XXXXX" 
+  GoogleAnalytics: "G-00000XXXXX"
   sitemap:
     changefreq: daily
     filename: sitemap.xml
