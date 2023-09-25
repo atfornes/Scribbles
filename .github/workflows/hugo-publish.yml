@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Unzip hugo pages
-        run: 7z x content/publicExport.zip -ocontent
+        run: 7z x content/publicExport.zip -ocontent -Y
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
