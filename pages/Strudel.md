@@ -1,3 +1,4 @@
+public:: true
 url:: [Strudel REPL](https://strudel.tidalcycles.org/)
 
 - [Strudel](https://strudel.tidalcycles.org/) is a [[live coding]] environment you can access from your browser.
