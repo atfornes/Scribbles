@@ -12,7 +12,7 @@ params:
     - name: "github"
       url: "https://github.com/atfornes"
     - name: "youtube"
-     url: "https://www.youtube.com/@tachachat"
+      url: "https://www.youtube.com/@tachachat"
     # - name: "twitter"
     #   url: "https://twitter.com/XXX"
     # - name: "kofi"
