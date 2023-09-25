@@ -1,3 +1,4 @@
+public:: true
 type:: [[Post]]
 date:: [[2023-09-05]]
 
