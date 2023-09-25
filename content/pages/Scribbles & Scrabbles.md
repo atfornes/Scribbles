@@ -5,6 +5,7 @@ categories:
 date: 2023-09-06
 lastMod: 2023-09-06
 ---
-## Posts
 
-  + {{query Post}}
+-
+- Personal [[live coding]] journal to share scribbles and scrabbles.
+-
