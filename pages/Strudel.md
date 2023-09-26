@@ -1,4 +1,6 @@
 public:: true
 url:: strudel.tidalcycles.org
+tags:: [[live coding]]
 
-- A live coding browser environment.
+- A [[live coding]] browser environment.
+-

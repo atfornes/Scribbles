@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["Strudel"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -414,4 +414,8 @@
  :file/name-format :triple-lowbar
  :feature/enable-journals? false
  :default-home {:page "Scribbles & Scrabbles"}
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :feature/enable-timetracking? false
+ :journal/page-title-format "yyyy-MM-dd"
+ :feature/enable-flashcards? false
+ :feature/enable-whiteboards? false}
