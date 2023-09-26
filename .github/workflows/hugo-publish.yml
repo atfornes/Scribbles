@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Unzip hugo pages
-        run: 7z x publicExport.zip -ocontent -Y
+        run: 7z x publicExport.zip -ocontent -Y; rm publicExport.zip
 
   deploy:
     runs-on: ubuntu-22.04
