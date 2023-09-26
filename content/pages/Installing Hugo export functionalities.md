@@ -23,4 +23,6 @@ git checkout logseq-template/main .github/workflows/publish.yml
 ```
 
 - Still having issues with the github actions to automatically extract the zipped hugo content.
+- I finally give up trying to unzip with github actions, as there is a race condition preventing this to happen.
+- I try again using two workflows, one that pushes to a new branch called unzipped-hugo and then building the hugo site from that branch.
 -
