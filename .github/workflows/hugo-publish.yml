@@ -3,7 +3,8 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - unzipped-hugo # Set a branch to deploy
+      - main
+      - unzipped-hugo
   pull_request:
   workflow_dispatch:
 
