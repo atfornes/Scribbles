@@ -3,14 +3,26 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - unzipped  # Set a branch to deploy
+      - main  # Set a branch to deploy
   pull_request:
 
 jobs:
+  unzip:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3.2.0
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Unzip hugo pages
+        run: 7z x publicExport.zip -ocontent -Y
+
   deploy:
     runs-on: ubuntu-22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    needs: unzip
     steps:
       - uses: actions/checkout@v3
         with:
