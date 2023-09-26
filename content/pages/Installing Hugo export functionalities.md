@@ -19,3 +19,4 @@ git checkout logseq-template/main .github/workflows/publish.yml
 
 -
 - I keep trying on with workflows...
+	- But I keep failing to trigger an action from a push from another github action.
