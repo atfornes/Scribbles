@@ -11,4 +11,4 @@ public:: true
 		  git fetch logseq-template --tags
 		  git merge --allow-unrelated-histories logseq-template/main
 		  git checkout logseq-template/main .github/workflows/publish.yml
-		- ```
+		  ```
