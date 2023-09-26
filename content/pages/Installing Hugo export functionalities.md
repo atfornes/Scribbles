@@ -1,10 +1,5 @@
----
-title: Installing Hugo export functionalities
-tags:
-categories:
-date: 2023-09-26
-lastMod: 2023-09-26
----
+public:: true
+
 I installed [a plugin](https://github.com/sawhney17/logseq-schrodinger) to export to a Hugo blog.
 
 And I think I need to install Hugo before checking how it works...
