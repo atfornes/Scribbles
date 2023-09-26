@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - unzipped-hugo  # Set a branch to deploy
+      - unzipped  # Set a branch to deploy
   pull_request:
 
 jobs:
