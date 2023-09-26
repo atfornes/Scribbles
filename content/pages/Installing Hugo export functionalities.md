@@ -20,5 +20,6 @@ git remote add logseq-template [GitHub - CharlesChiuGit/Logseq-Hugo-Template: Th
 git fetch logseq-template --tags
 git merge --allow-unrelated-histories logseq-template/main
 git checkout logseq-template/main .github/workflows/publish.yml
-
 ```
+
+- Still having issues with the github actions to automatically extract the zipped hugo content.
