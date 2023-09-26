@@ -1,0 +1,5 @@
+- Strudel already support some midi functionality. I want to check how to support midi clock.
+- Midi Clock sends 24 MIDI clocks per quarter note
+- We will use [WebMIDI sendClock function](https://webmidijs.org/api/classes/Output/#sendClock)
+- After trying to make it work for a bit, I open an issue in Strudel's github: [Support MIDI Clock · Issue #709 · tidalcycles/strudel · GitHub](https://github.com/tidalcycles/strudel/issues/709)
+-
