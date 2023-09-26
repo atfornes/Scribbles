@@ -6,5 +6,5 @@ date: 2023-09-25
 lastMod: 2023-09-25
 ---
 
-- a [[Live coding]] journal by TACHA~
+- a [[Live coding]] journal by [TACHA~](https://tacha.glitch.me/)
 -
