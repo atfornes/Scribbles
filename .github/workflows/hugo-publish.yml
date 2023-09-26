@@ -13,9 +13,9 @@ jobs:
     steps:
       - name: Unzip hugo pages
         uses: actions/checkout@v3.2.0
-          with:
-            submodules: true # Fetch Hugo themes (true OR recursive)
-            fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
         run: 7z x content/publicExport.zip -ocontent -Y
         - name: Add & Commit
           uses: EndBug/add-and-commit@v9.1.3
