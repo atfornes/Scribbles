@@ -11,13 +11,13 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: Unzip hugo pages
         uses: actions/checkout@v3.2.0
         with:
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-        run: 7z x content/publicExport.zip -ocontent -Y
-        - name: Add & Commit
+      - name: Unzip hugo pages
+          run: 7z x content/publicExport.zip -ocontent -Y
+      - name: Add & Commit
           uses: EndBug/add-and-commit@v9.1.3
           with:
             new_branch: gh-pages
