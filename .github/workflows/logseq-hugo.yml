@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Logseq to Hugo
+    steps:
+      - uses: actions/checkout@v4
+      - id: foo
+        uses: atfornes/logseq-hugo-action@v1
+        with:
+      - run: echo random-number ${{ steps.foo.outputs.random-number }}
+        shell: bash
