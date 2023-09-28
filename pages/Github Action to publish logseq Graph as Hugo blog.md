@@ -1,0 +1,4 @@
+- I start following [this tutorial](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) about the creation of github actions.
+-
+-
+-

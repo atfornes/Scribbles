@@ -2,4 +2,6 @@
 - Midi Clock sends 24 MIDI clocks per quarter note
 - We will use [WebMIDI sendClock function](https://webmidijs.org/api/classes/Output/#sendClock)
 - After trying to make it work for a bit, I open an issue in Strudel's github: [Support MIDI Clock · Issue #709 · tidalcycles/strudel · GitHub](https://github.com/tidalcycles/strudel/issues/709)
--
+	- The issue was solved in less than a day!
+		- [add midi clock support by felixroos · Pull Request #710 · tidalcycles/strudel · GitHub](https://github.com/tidalcycles/strudel/pull/710)
+	-
