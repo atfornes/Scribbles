@@ -8,6 +8,5 @@ jobs:
       - uses: actions/checkout@v4
       - id: foo
         uses: atfornes/logseq-hugo-action@v1
-        with:
       - run: ls content
         shell: bash
