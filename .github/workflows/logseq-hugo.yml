@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: atfornes/logseq-hugo-action@v1
+        uses: atfornes/logseq-hugo-action@v1.2
       - run: ls content
         shell: bash
