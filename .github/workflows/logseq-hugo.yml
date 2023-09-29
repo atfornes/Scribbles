@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     name: Logseq to Hugo
     steps:
-      - uses: atfornes/logseq-hugo-action@v1.4
+      - uses: atfornes/logseq-hugo-action@v1.5
