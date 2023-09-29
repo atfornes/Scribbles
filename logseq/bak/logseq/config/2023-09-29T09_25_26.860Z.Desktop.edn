@@ -15,7 +15,7 @@
  ;; Exclude directories/files.
  ;; Example usage:
  ;; :hidden ["/archived" "/test.md" "../assets/archived"]
- :hidden []
+ :hidden ["../content"]
 
  ;; Define the default journal page template.
  ;; Enter the template name between the quotes.
@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["Strudel"]
+ :favorites []
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -416,4 +416,6 @@
  :default-home {:page "Scribbles & Scrabbles"}
  :publishing/all-pages-public? true
  :feature/enable-timetracking? false
- :journal/page-title-format "yyyy-MM-dd"}
+ :journal/page-title-format "yyyy-MM-dd"
+ :feature/enable-flashcards? false
+ :feature/enable-whiteboards? false}

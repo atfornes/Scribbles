@@ -26,4 +26,5 @@ git merge --allow-unrelated-histories logseq-hugo-template/master
 
 		+ After  solving some merge issues in README and configuration files, the hugo template will be ready to be used after configuring it.
 
-		+ FAILED I try to follow this installation process and publish a github action for converting logseq to markdown [Publishing actions in GitHub Marketplace - GitHub Docs](https://docs.github.com/en/actions/creating-actions/publishing-actions-in-github-marketplace)
+		+ NEXT Follow this installation process and publish a github action for converting logseq to markdown [Publishing actions in GitHub Marketplace - GitHub Docs](https://docs.github.com/en/actions/creating-actions/publishing-actions-in-github-marketplace)
+
