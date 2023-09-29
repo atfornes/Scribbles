@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v2
-      - uses: atfornes/logseq-hugo-action@v1.3
-      - run: ls content
+      - run: npm install
         shell: bash
+      - uses: atfornes/logseq-hugo-action@v1.3
